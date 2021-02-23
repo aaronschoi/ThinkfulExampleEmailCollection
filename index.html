@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formspree Form Example</title>
+        <meta name="description" content="An Example of Formspree">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="https://formspree.io/aaronschoilcw@gmail.com" method="post">
+          <fieldset>
+              <legend>User Information</legend>
+              <div class="field">
+                  <label for="Name">Name:</label>
+                  <input id="Name" type="text" name="UserInfo" required> <!--https://stackoverflow.com/questions/1397592/difference-between-id-and-name-attributes-in-html-->
+              </div>
+              <div class="field">
+                  <label for="EmailAddress">Email Address:</label>
+                  <input id="EmailAddress" type="email" name="UserInfo" required>
+              </div>
+              <div class="field">
+                  <label for="UserMessage">Enter Message:</label>
+                  <textarea id="Message" name="UserInfo"></textarea>
+              </div>
+              <div>
+                  <button type="submit">Submit</button>
+                  <button type="reset">Reset</button>
+              </div>
+          </fieldset>  
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>

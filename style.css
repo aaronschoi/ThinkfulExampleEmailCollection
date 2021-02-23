@@ -1,0 +1,14 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+form {
+    width: 100%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
